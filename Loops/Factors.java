@@ -1,0 +1,22 @@
+package Loops;
+
+// factor of 6 = 1 2 3 6
+
+public class Factors {
+
+	public static void main(String[] args) {
+
+		int num = 6;
+		int c = 0;
+
+		for (int i = 1; i <= num; i++)
+		{
+
+			if (num % i == 0) { // used to get factors of the number.
+				 c++; // used to calculate how many factors are there.
+				System.out.println(" " + i + " ");
+			}
+		}
+		System.out.print("Total factors : " + c);
+	}
+}
